@@ -38,7 +38,7 @@ flexButton.forEach((button) => {
         const property = button.getAttribute("data-property");
         const value = button.getAttribute("data-value");
         flexBox.style[property] = value;
-        flexButton.forEach((btn) => btn.classList.remove("active"));
         button.classList.add("active");
+        flexButton.forEach((btn) => btn.classList.remove("active"));
     });
 });
