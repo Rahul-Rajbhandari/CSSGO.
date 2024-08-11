@@ -6,7 +6,6 @@ We Are Here to Guide You Through Every Step of Learning and Mastering CSS
 
 ## Screenshots
 
-![App Screenshot](Images/s1.png)
 
 ![App Screenshot](Images/s2.png)
 
@@ -14,6 +13,7 @@ We Are Here to Guide You Through Every Step of Learning and Mastering CSS
 
 ![App Screenshot](Images/s4.png)
 
+![App Screenshot](Images/s1.png)
 ## Visit the website :
 [@cssgo.](https://cssgo.netlify.app)
 
