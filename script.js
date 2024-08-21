@@ -42,3 +42,26 @@ flexButton.forEach((button) => {
         flexButton.forEach((btn) => btn.classList.remove("active"));
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const musicSection = document.getElementById('footer');
+    const audio = new Audio('../Sounds/waydown.mp3')
+
+    const options = {
+        root: null, // relative to the viewport
+        rootMargin: "0px",
+        threshold: 0.5 // 50% of the section should be visible
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        });
+    }, options);
+
+    observer.observe(musicSection);
+});
